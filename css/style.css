@@ -1,0 +1,60 @@
+.home-container {
+    background: url("imagens/capa.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.home-container section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 30rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 70px;
+}
+
+.content h3 {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+.content p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: rgb(0, 0, 0);
+    
+}
+.review .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.review .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 1rem 0.5rem;
+    flex: 1 1 250px;
+    
+}
+
+.review .box-container .box p {
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    line-height: 1.6rem;
+}
+
+.review .box-container .box .user {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+}

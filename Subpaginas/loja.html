@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Ajuda ao cliente</title>
+    <style>
+        body {
+            background-color: #e5f5e9;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .bg-body-tertiary {
+            background-color: #96c5a8 !important;
+            border-bottom: 1px solid #c0eac7;
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-mode {
+      background-color: #1a1a1a; 
+      color: #f5f5f5; 
+    }
+
+    body.dark-mode .bg-body-tertiary {
+      background-color: #2c2c2c !important; 
+      border-bottom-color: #444;
+      box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    body.dark-mode form {
+      background-color: #333; 
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+
+    body.dark-mode .home-container .content h3,
+    body.dark-mode .home-container .content p,
+    body.dark-mode .container.mt-4 h1,
+    body.dark-mode .container.mt-4 h2,
+    body.dark-mode .p-3.mb-4.rounded h2,
+    body.dark-mode .p-3.mb-4.rounded p {
+      color: #f5f5f5;
+    }
+
+    body.dark-mode .container.mt-4 {
+      background: #2c2c2c; 
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.07);
+    }
+
+    body.dark-mode .p-3.mb-4.rounded {
+      background-color: #444; 
+      border-color: #666;
+    }
+
+    body.dark-mode footer {
+      background-color: #2c2c2c; 
+      color: #f5f5f5;
+    }
+
+   
+    .dark-mode-toggle {
+      background: none;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-left: 15px;
+      padding: 0;
+    }
+
+    .dark-mode-toggle .bi {
+      vertical-align: middle;
+    }
+
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" style="height: 40px; width: auto;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../instituicao.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destino.html">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ajuda.html">Ajuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="giro.html">Giro de Estádio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="curiosidades.html">Curiosidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="loja.html">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+            <a class="nav-link" href="carrinho.html">Carrinho</a>
+          </li>
+
+                </ul>
+                <button id="darkModeToggle" class="dark-mode-toggle">
+          <i class="bi bi-moon-fill" id="darkModeIcon"></i> </button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="mt-3 fw-bold" style="color: #236427; font-size: 2.5rem; letter-spacing: 2px;">
+                <span style="text-shadow: 2px 2px 8px #c0eac7;">BEM-VINDO À NOSSA LOJA!</span>
+            </h2>
+            <p style="font-size: 1.25rem; color: #555; margin-top: 10px;">
+                Confira nossos <span style="color: #236427; font-weight: 600;">produtos exclusivos</span> para fãs de futebol.
+            </p>
+            <hr style="border-top: 2px solid #96c5a8; width: 60%; margin: 20px auto;">
+            <video src="img/estadiando.mp4" controls autoplay loop muted style="width: 550px; max-width: 100%; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.15);"></video>
+        </div>
+        <div class="row justify-content-center g-4">
+            
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card shadow-lg border-0 w-100 h-100">
+                    <img src="img/camiseta.png" class="card-img-top" alt="Camisa Estadiando" style="object-fit: cover; height: 220px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title text-center fw-bold" style="color: #236427;">Camisa Estadiando</h5>
+                        <p class="card-text text-center"> R$ 30 <br>Mostre sua paixão pelo futebol com nossa camisa exclusiva.</p>
+                        <div class="d-grid">
+                            <a href="carrinho.html?produto=camiseta" class="btn btn-success rounded-pill btn-lg">
+                                <i class="bi bi-cart-plus"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex align-items-stretch">
+                <div class="card shadow-lg border-0 w-100 h-100">
+                    <img src="img/cachecol.png" class="card-img-top" alt="Cachecol Estadiando" style="object-fit: cover; height: 220px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title text-center fw-bold" style="color: #236427;">Cachecol Estadiando</h5>
+                        <p class="card-text text-center">R$ 40 <br>Aqueça-se e mostre sua torcida com nosso cachecol exclusivo.</p>
+                        <div class="d-grid">
+                            <a href="carrinho.html?produto=cachecol" class="btn btn-success rounded-pill btn-lg">
+                                <i class="bi bi-cart-plus"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card shadow-lg border-0 w-100 h-100">
+                    <img src="img/caderno.png" class="card-img-top" alt="Caderno Estadiando" style="object-fit: cover; height: 220px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title text-center fw-bold" style="color: #236427;">Caderno Estadiando</h5>
+                        <p class="card-text text-center">R$ 25 <br>Anote suas ideias e registros de jogos no nosso caderno personalizado.</p>
+                        <div class="d-grid">
+                            <a href="carrinho.html?produto=caderno" class="btn btn-success rounded-pill btn-lg">
+                                <i class="bi bi-cart-plus"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card shadow-lg border-0 w-100 h-100">
+                    <img src="img/caneta.png" class="card-img-top" alt="Caneca Estadiando" style="object-fit: cover; height: 220px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title text-center fw-bold" style="color: #236427;">Caneta Estadiando</h5>
+                        <p class="card-text text-center">R$ 15 <br> Escreva com estilo com nossa caneta de alta qualidade.</p>
+                        <div class="d-grid">
+                            <a href="carrinho.html?produto=caneca" class="btn btn-success rounded-pill btn-lg">
+                                <i class="bi bi-cart-plus"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+           <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card shadow-lg border-0 w-100 h-100">
+                    <img src="img/caneca.png" class="card-img-top" alt="Caneca Estadiando" style="object-fit: cover; height: 220px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title text-center fw-bold" style="color: #236427;">Caneca Estadiando</h5>
+                        <p class="card-text text-center">R$ 30 <br> Desfrute de suas bebidas favoritas com nossa caneca personalizada.</p>
+                        <div class="d-grid">
+                            <a href="carrinho.html?produto=caneca" class="btn btn-success rounded-pill btn-lg">
+                                <i class="bi bi-cart-plus"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card shadow-lg border-0 w-100 h-100">
+                    <img src="img/bloco.png" class="card-img-top" alt="Bloco Estadiando" style="object-fit: cover; height: 220px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title text-center fw-bold" style="color: #236427;">Bloco Estadiando</h5>
+                        <p class="card-text text-center">R$ 20 <br>Faça suas anotações rápidas no bloco personalizado Estadiando.</p>
+                        <div class="d-grid">
+                            <a href="carrinho.html?produto=bloco" class="btn btn-success rounded-pill btn-lg">
+                                <i class="bi bi-cart-plus"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"></div>
+    <footer class="text-center mt-5" style="background-color: #96c5a8; padding: 20px; color: white;">
+    <p>&copy; 2025 Estadiando. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const darkModeToggle = document.getElementById('darkModeToggle');
+      const darkModeIcon = document.getElementById('darkModeIcon');
+      const body = document.body;
+
+      
+      const savedMode = localStorage.getItem('darkMode');
+      if (savedMode === 'enabled') {
+        body.classList.add('dark-mode');
+        darkModeIcon.classList.remove('bi-moon-fill');
+        darkModeIcon.classList.add('bi-sun-fill'); 
+      }
+
+      darkModeToggle.addEventListener('click', function() {
+        body.classList.toggle('dark-mode');
+
+        
+        if (body.classList.contains('dark-mode')) {
+          darkModeIcon.classList.remove('bi-moon-fill');
+          darkModeIcon.classList.add('bi-sun-fill');
+          localStorage.setItem('darkMode', 'enabled'); 
+        } else {
+          darkModeIcon.classList.remove('bi-sun-fill');
+          darkModeIcon.classList.add('bi-moon-fill');
+          localStorage.setItem('darkMode', 'disabled'); 
+        }
+      });
+    });
+    </script>
+</body>
+    
+    </html>
+    
